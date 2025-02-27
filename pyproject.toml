@@ -1,0 +1,14 @@
+[project]
+name = "agentic-developer"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "flask",
+    "ollama",
+    "aider>=0.2.6",
+    "pymongo>=4.11.1",
+    "uv>=0.6.3",
+    "watchdog>=6.0.0",
+]
